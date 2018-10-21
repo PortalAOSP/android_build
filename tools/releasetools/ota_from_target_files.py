@@ -825,15 +825,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   script.Print("                                               ")
   script.Print("***********************************************")
-  script.Print("  __   __                      _    _ _____    ")
-  script.Print("  \ \ / /                     | |  | |  __ \   ")
-  script.Print("   \ V / ___ _ __   ___  _ __ | |__| | |  | |  ")
-  script.Print("    > < / _ \ '_ \ / _ \| '_ \|  __  | |  | |  ")
-  script.Print("   / . \  __/ | | | (_) | | | | |  | | |__| |  ")
-  script.Print("  /_/ \_\___|_| |_|\___/|_| |_|_|  |_|_____/   ")
-  script.Print("                                               ")
-  script.Print("                www.xenonhd.com                ")
-  script.Print("                                               ")
+  script.Print("       PornAOSP - Pie - pornypie release       ")
   script.Print("***********************************************")
   script.Print("                                               ")
 
