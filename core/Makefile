@@ -331,7 +331,7 @@ endif
 	$(hide) TARGET_BUILD_TYPE="$(TARGET_BUILD_VARIANT)" \
 			TARGET_BUILD_FLAVOR="$(TARGET_BUILD_FLAVOR)" \
 			TARGET_DEVICE="$(TARGET_DEVICE)" \
-			XENONHD_DEVICE="$(TARGET_DEVICE)" \
+			PAOSP_DEVICE="$(TARGET_DEVICE)" \
 			PRODUCT_NAME="$(TARGET_PRODUCT)" \
 			PRODUCT_BRAND="$(PRODUCT_BRAND)" \
 			PRODUCT_DEFAULT_LOCALE="$(call get-default-product-locale,$(PRODUCT_LOCALES))" \
@@ -1608,7 +1608,7 @@ INTERNAL_SYSTEMIMAGE_FILES := $(filter $(TARGET_OUT)/%, \
 
 systemimage-changelog: $(INTERNAL_SYSTEMIMAGE_FILES)
 	@echo "Generating changelog..."
-	$(hide) APKCERTS=$(APKCERTS_FILE) ./vendor/xenonhd/build/tools/changelog
+	$(hide) APKCERTS=$(APKCERTS_FILE) ./vendor/paosp/build/tools/changelog
 
 .PHONY: systemimage-changelog
 
@@ -3182,7 +3182,7 @@ endif
 ifeq ($(WITH_GMS),true)
     $(INTERNAL_OTA_PACKAGE_TARGET): backuptool := false
 else
-ifneq ($(XENONHD_BUILD),)
+ifneq ($(PAOSP_BUILD),)
     $(INTERNAL_OTA_PACKAGE_TARGET): backuptool := true
 else
     $(INTERNAL_OTA_PACKAGE_TARGET): backuptool := false
