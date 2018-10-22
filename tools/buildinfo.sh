@@ -63,4 +63,8 @@ echo "ro.build.characteristics=$TARGET_AAPT_CHARACTERISTICS"
 
 echo "ro.paosp.device=$PAOSP_DEVICE"
 
+echo "ro.com.google.ime.themes_dir=/system/etc/gboard_theme"
+echo "ro.com.google.ime.theme_file=PornAosp.zip"
+
+
 echo "# end build properties"
