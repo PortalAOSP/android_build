@@ -825,7 +825,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   script.Print("                                               ")
   script.Print("***********************************************")
-  script.Print("       PornAOSP - Pie - pornypie release       ")
+  script.Print("          PornAOSP - creamPie release          ")
   script.Print("***********************************************")
   script.Print("                                               ")
 
