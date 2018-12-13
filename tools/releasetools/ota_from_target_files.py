@@ -825,7 +825,9 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   script.Print("                                               ")
   script.Print("***********************************************")
-  script.Print("          PornAOSP - creamPie release          ")
+  script.Print("                   PornAOSP                    ")
+  script.Print("                pozdro 600 elo                 ")
+  script.Print("                 last release.                 ")
   script.Print("***********************************************")
   script.Print("                                               ")
 
